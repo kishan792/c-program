@@ -12,8 +12,8 @@ void main()
     printf("Value of c : %d\n",c);
     printf("Value of a : %d\n",a);
 
-    //pre increment operator;
-    int d = ++e;
+    //pre decrement operator;
+    int d = --e;
     printf("Value of d : %d\n",d);
     printf("Value of e : %d\n",e);
 
