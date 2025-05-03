@@ -6,7 +6,7 @@ void main()
     printf("Enter the character\n");
     scanf(" %c",&ch);
 
-    if(ch>=65 && ch<=90)
+    if(ch>='A' && ch<='Z')
     {
         printf("Character is in upper case\n");
     }
