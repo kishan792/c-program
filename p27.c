@@ -11,6 +11,7 @@ void main()
     if(unit<=50)
     {
         charges = unit * 0.50;
+
     }
     else if(unit>50 && unit<=150)
     {
@@ -30,4 +31,5 @@ void main()
         unit = unit - 250;
         charges = charges + unit * 1.75;
     }
+    printf("You are charged with %d amount\n",charges);
 }

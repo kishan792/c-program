@@ -9,27 +9,27 @@ void main()
     {
         printf("Monday\n");
     }
-     if(num==1)
+    else if(num==2)
     {
        printf("tuesday\n"); 
     }
-     if(num==1)
+    else if(num==3)
     {
        printf("wednesday\n"); 
     }
-     if(num==1)
+    else if(num==4)
     {
        printf("thursday\n"); 
     }
-     if(num==5)
+    else if(num==5)
     {
        printf("friday\n"); 
     }
-     if(num==6)
+    else if(num==6)
     {
        printf("saturday\n"); 
     }
-     if(num==7)
+    else if(num==7)
     {
        printf("sunday\n"); 
     }
