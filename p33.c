@@ -10,10 +10,7 @@ void main()
     int sum = 1;
     for(i = 1;i <= n;i++)
     {
-
-        int ans = sum * i;
-        printf("%d * %d = %d\n",sum,i,ans);
-        sum = ans;
+        sum = sum + i;
     }
-   // printf("Sum : %d\n",sum);
+    printf("Sum : %d\n",sum);
 }

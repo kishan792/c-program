@@ -64,6 +64,10 @@
 
 
 -->multiple updation can be there...
+if there is multiple updation loop will update all the values...
+
+
+//Empty loop -> A loop with no intilaization ,no condtion ,no updation
 */
 #include<stdio.h>
 void main()

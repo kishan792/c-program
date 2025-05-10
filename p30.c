@@ -13,12 +13,12 @@ void main()
     printf("Enter the value of n\n");
     scanf("%d",&n);
 
-    printf("Before Loop\n");
+    
    int i;
    for(i=1;i<=n;i++)
    {
     printf("Kishan\n");
    }
-     printf("After Loop\n");
+   
 
 }
