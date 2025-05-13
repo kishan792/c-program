@@ -8,12 +8,13 @@ void main()
 
     int p1 = -1;
     int p2 = 1;
-    for(int i = 1;i<=num;i++)
+    int i;
+    for(i = 1;i<=num;i++)
     {
         int cur = p1 + p2;
         printf("%d\t",cur);
 
         p1 = p2;
-        p2 = cur;
+        p2 = cur;   
     }
 }
