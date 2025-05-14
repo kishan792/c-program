@@ -1,3 +1,7 @@
+/*
+    WAP to take input of x and y and caculate x ^ y
+*/
+
 #include<stdio.h>
 void main()
 {
