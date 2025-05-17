@@ -6,8 +6,6 @@ void main()
     int i;//me
     for(i=1;i<=100;i++)
     {
-       
-
         if(i==20)
         {
             printf("loop termiante at specifed condition\n");

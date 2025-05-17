@@ -1,6 +1,7 @@
 /*
     Do while loop -> is a exit control loop condtion will checkedat the exist point
-
+    Exit control loop -> if the condition is false loop will execute atleast once;
+    
     do{
         body of loop
     }
