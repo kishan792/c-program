@@ -7,7 +7,7 @@ void main()
     printf("Enter the value of n\n");
     scanf("%d",&n);
 
-    for(i=n;i>=1;i--)
+    for(i=1;i<=n;i++)
     {
         //space code
         for(j=1;j<=n-i;j++)
