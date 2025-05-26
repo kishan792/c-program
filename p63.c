@@ -9,7 +9,7 @@ void main()
     printf("Adress of x : %u\n",&x);
     printf("value of ptr : %u\n",ptr);
 
-    ptr = ptr + 1;
+    ptr = ptr + 1; //it will increment 1 byte as ptr store address of char type...
 
     printf("value of ptr : %u\n",ptr);
     

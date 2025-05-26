@@ -3,14 +3,14 @@
 #include<stdio.h>
 void main()
 {
-     int x = 10;
-     int *ptr = &x;
+    int x = 10;
+    int *ptr = &x;
 
-    printf("Adress of x : %d\n",&x);
-    printf("value of ptr : %d\n",ptr); // to observe the changes we use %u to print address
+    printf("Adress of x : %u\n",&x);
+    printf("value of ptr : %u\n",ptr); // to observe the changes we use %u to print address
 
     ptr = ptr + 1; //it will increment 4 byte as ptr store address of int type...
 
-    printf("value of ptr : %d\n",ptr);
+    printf("value of ptr : %u\n",ptr);
     
 }

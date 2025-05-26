@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int sp;
     int dis;
@@ -21,4 +21,6 @@ void main()
         sp = sp - dis;
         printf("Final price is %d RS.\n",sp);
     }
+
+   return 0;
 }
