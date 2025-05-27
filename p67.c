@@ -1,4 +1,4 @@
-//without return type without argument
+//without returntype without argument
 //WAP to calculate area of rectangle
 
 #include<stdio.h>
