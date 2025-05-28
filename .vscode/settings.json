@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "vector": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "random": "c"
     }
 }
