@@ -1,3 +1,4 @@
+//call by value
 #include<stdio.h>
 
 void swap(int,int);

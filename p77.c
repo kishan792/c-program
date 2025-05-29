@@ -1,3 +1,4 @@
+//call by refrence
 #include<stdio.h>
 
 void swap(int* ,int*);
