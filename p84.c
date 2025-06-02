@@ -4,7 +4,7 @@ int main()
     //declare the array & intialize it
 
     //datatye arrayName[size] = {val1,val2,val3,val4};
-
+    //compile time input
     int marks[5] = {74,68,63,89,94};
    
 

@@ -5,7 +5,13 @@ int main()
 
     //datatye arrayName[size] = {val1,val2,val3,val4};
 
-    int marks[5] = {74,68,63,89,94};
+    //int marks[5] = {74,68,63,89,94};
+    int marks[5];
+    marks[0] = 74;
+    marks[1] = 68;
+    marks[2] = 63;
+    marks[3] = 89;
+    marks[4] = 94;
 
     //Array have index that start from 0
 
