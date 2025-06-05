@@ -1,3 +1,4 @@
+//Write a program to sort an array in acc order using selection sort....
 #include<stdio.h>
 void selectionSort(int arr[],int size)
 {
@@ -8,7 +9,7 @@ void selectionSort(int arr[],int size)
         for(j=i+1;j<size;j++)
         {
             //to find the index of minimum element..
-            if(arr[j]>arr[min])
+            if(arr[j]<arr[min])
             {
                 min = j;
             }
