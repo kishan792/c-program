@@ -1,7 +1,17 @@
 #include<stdio.h>
-#include"string.c"
+#include<string.h>
 
+int length(char name[])
+{
+    int i = 0;
 
+    while(name[i]!='\0')
+    {
+        i++;
+    }
+
+    return i;
+}
 
 int countVowels(char str[])
 {

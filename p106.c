@@ -18,7 +18,7 @@ int main()
     char name[50];
 
     printf("Enter your name\n");
-    gets(name);
+    scanf("%s",name);
 
     int len = length(name);
     printf("Lentg of my name is %d\n",len);
