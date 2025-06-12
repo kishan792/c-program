@@ -1,10 +1,8 @@
 //Structure padding  -> alway keep the higher data type at top
 #include<stdio.h>
-#pragma pack 0;
 struct Employee
 {
-    int a;
-    
+    int a;  
     char c;
     int b;
     
