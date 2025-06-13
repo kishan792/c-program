@@ -4,9 +4,7 @@ struct Employee
 {
     int a;  
     char c;
-    int b;
-    
-    
+    int b; 
 };
 
 int main()
