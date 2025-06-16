@@ -27,11 +27,15 @@ int main()
         scanf("%d",ptr+i);
     }
 
+    printf("access all the element in a array\n");
     for(int i =0;i<n;i++)
     {
         printf("%d\t",*(ptr+i));
-        
     }
+    printf("\n\n");
+
+
+    free(ptr);
 
     return 0;
 }
