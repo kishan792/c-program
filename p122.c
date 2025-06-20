@@ -14,10 +14,10 @@ int main()
 
     while(feof(fp)!=1)
     {
-        char ch;
+        char str[50];
 
-        ch = fgetc(fp);
-        printf("%c",ch);
+        fgets(str,10,fp);
+        printf("%s",str);
     }
 
     fclose(fp);
